@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <!-- Fonts -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -12,17 +13,17 @@
     <link rel="stylesheet" href="css/background-images.css">
     <link rel="stylesheet" href="css/bulma.css">
 
+    <link rel="icon" type="image/png" href="icons/fist_mini.png">
 
     <title>Sebastian Faust</title>
 </head>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <body>
 
-<!-- Naviagaion -->
+<!-- Navigation -->
 <div class="container">
     <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="https://bulma.io">
+            <a class="navbar-item" href="">
                 <img src="icons/fist_pastel.png">
             </a>
 
@@ -108,7 +109,7 @@
 
 </section>
 
-<!-- Text -->
+<!-- About -->
 <section class="section has-background-light">
     <div class="container content">
         <h1>Section</h1>
@@ -123,7 +124,7 @@
     </div>
 </section>
 
-<!-- Projekts -->
+<!-- Projects -->
 <section class="section">
 
     <div class="container">
@@ -270,10 +271,10 @@
         </div>
     </section>
 </footer>
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script>
     $(document).ready(function() {
 
+        //Burger----------------------------------------------------
         // Check for click events on the navbar burger icon
         $(".navbar-burger").click(function() {
             console.log("clicked");
@@ -283,7 +284,7 @@
 
         });
 
-        //animation
+        //animation-------------------------------------------------
         window.sr = ScrollReveal({
             reset: false,
             duration: 1000,
