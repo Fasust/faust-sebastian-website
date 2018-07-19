@@ -74,8 +74,4 @@
   },
   "style": "bulma/css/bulma.min.css",
   "version": "0.7.1",
-  "dependencies": {
-    "jquery": "^3.3.1",
-    "scrollreveal": "^3.4.0"
-  }
 }
