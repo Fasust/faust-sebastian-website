@@ -73,5 +73,5 @@
     "start": "npm run build-sass -- --watch"
   },
   "style": "bulma/css/bulma.min.css",
-  "version": "0.7.1",
+  "version": "0.7.1"
 }
