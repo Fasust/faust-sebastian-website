@@ -6,8 +6,3 @@
 - My current Projekts
 - Contact Informations
 
-#### Frameworks
-- bulma.io
-- jquery
-- scrollreveal
-- font-awesome
