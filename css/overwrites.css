@@ -1,4 +1,9 @@
 .gray-background{
-    background-color: rgb(7, 0, 24);
+    background-color: rgb(238, 238, 238);
+}
+
+.bold{
+    color: #000;
+    font-weight: bold;
 }
 

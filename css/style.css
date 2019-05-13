@@ -334,14 +334,14 @@ h1, h2, h3, h4, h5, h6, figure {
 .info li:first-child {
   padding-top: 0;
 }
-.info li .first-block {
+.first-block {
   width:40%;
   display: inline-block;
   float: left;
   color: #000;
   font-weight: bold;
 }
-.info li .second-block {
+.second-block {
   width: 60%;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
@@ -441,7 +441,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   content: " ";
   width: 2px;
-  background-color: #e6e6e6;
+  background-color: #797979;
   left: 50%;
   margin-left: 0px;
 }
@@ -467,7 +467,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: bold;
-  background: #e6e6e6;
+  background: #c4c4c4;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -587,9 +587,10 @@ h1, h2, h3, h4, h5, h6, figure {
 .company {
   display: block;
   margin-bottom: 20px;
+  margin-top: 0px;
   font-size: 16px;
   font-weight: normal;
-  color: #bfbfbf;
+  color: #9c9c9c;
 }
 
 .timeline-body > p,
