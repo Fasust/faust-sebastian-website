@@ -2,14 +2,22 @@
     background-color: rgb(238, 238, 238);
 }
 
+.charcole-background{
+    background-color: #2F3C4F;
+}
+
 .bold{
     color: #000;
     font-weight: bold;
 }
 
+.light-gray{
+    color: rgba(255, 255, 255, 0.8);
+}
+
 .btn-cv{
     margin-top: 30px;
-    background-color: rgb(47, 60, 79);
+    background-color: #2B64A9;
     color: white;
     display: block;
     
