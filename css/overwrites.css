@@ -21,3 +21,11 @@
     }
 }
 
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+
+    font-size: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+}
