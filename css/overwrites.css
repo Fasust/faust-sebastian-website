@@ -1,3 +1,5 @@
+/** General ============== **/
+
 .gray-background{
     background-color: rgb(238, 238, 238);
 }
@@ -12,7 +14,21 @@
 }
 
 .light-gray{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(148, 148, 148, 0.8);
+}
+
+/** Specific Items ============== **/
+
+.repo-link{
+    float: right;
+}
+
+.repo-link:hover{
+    color: #2B64A9;
+}
+
+.btn-top-spacing{
+    margin-top: 50px;
 }
 
 .btn-cv{
@@ -27,7 +43,10 @@
     .btn-cv{
         float: right;
     }
+
 }
+  
+/** FlatIcon Font ============== **/
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
 
