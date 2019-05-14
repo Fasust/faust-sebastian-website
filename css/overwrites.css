@@ -7,3 +7,17 @@
     font-weight: bold;
 }
 
+.btn-cv{
+    margin-top: 70px;
+    background-color: rgb(47, 60, 79);
+    color: white;
+    display: block;
+    
+}
+
+@media (min-width: 768px) {
+    .btn-cv{
+        float: right;
+    }
+}
+
