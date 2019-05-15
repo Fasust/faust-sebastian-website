@@ -1,64 +1,63 @@
 /** General ============== **/
 
-.gray-background{
-    background-color: rgb(238, 238, 238);
+.gray-background {
+  background-color: rgb(238, 238, 238);
 }
 
-.charcole-background{
-    background-color: #2F3C4F;
+.charcole-background {
+  background-color: #2f3c4f;
 }
 
-.bold{
-    color: #000;
-    font-weight: bold;
+.bold {
+  color: #000;
+  font-weight: bold;
 }
 
-.light-gray{
-    color: rgba(148, 148, 148, 0.8);
+.light-gray {
+  color: rgba(148, 148, 148, 0.8);
 }
 
 /** Specific Items ============== **/
 
-.repo-link{
-    float: right;
+.repo-link {
+  float: right;
 }
 
-.repo-link:hover{
-    color: #2B64A9;
+.repo-link:hover {
+  color: #2b64a9;
 }
 
-.btn-contact-me{
-    margin-top: 50px;
+.btn-contact-me {
+  margin-top: 50px;
 }
 
-.btn-contact-me:hover{
-    background-color: #2B64A9 !important;
-    color: #ffffff !important;
+.btn-contact-me:hover {
+  background-color: #2b64a9 !important;
+  color: #ffffff !important;
 }
 
-
-.btn-cv{
-    margin-top: 30px;
-    background-color: #2B64A9;
-    color: white;
-    display: block;
-    
+.btn-cv {
+  margin-top: 30px;
+  background-color: #2b64a9;
+  color: white;
+  display: block;
 }
 
 @media (min-width: 768px) {
-    .btn-cv{
-        float: right;
-    }
-
+  .btn-cv {
+    float: right;
+  }
 }
-  
+
 /** FlatIcon Font ============== **/
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
-
-    font-size: 50px;
-    display: table-cell;
-    vertical-align: middle;
-    width: 100px;
-    height: 100px;
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+  font-size: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
 }
