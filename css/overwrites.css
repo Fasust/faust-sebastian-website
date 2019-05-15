@@ -27,9 +27,15 @@
     color: #2B64A9;
 }
 
-.btn-top-spacing{
+.btn-contact-me{
     margin-top: 50px;
 }
+
+.btn-contact-me:hover{
+    background-color: #2B64A9 !important;
+    color: #ffffff !important;
+}
+
 
 .btn-cv{
     margin-top: 30px;
