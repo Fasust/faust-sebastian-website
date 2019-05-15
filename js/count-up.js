@@ -23,5 +23,5 @@ let waypoint = new Waypoint({
       );
     });
   },
-  offset: 300
+  offset: 400
 });
