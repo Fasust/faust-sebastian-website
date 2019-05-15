@@ -99,12 +99,20 @@ figure {
 #fh5co-header,
 .fh5co-cover {
   background-color: transparent;
-  background-size: cover;
   background-attachment: fixed;
+  background-size: cover;
   position: relative;
   height: 600px;
   width: 100%;
 }
+
+@media only screen and (max-width:749px)  {
+  #fh5co-header {
+    background-attachment:inherit !important;
+   
+  }
+}
+
 #fh5co-header .overlay,
 .fh5co-cover .overlay {
   position: absolute;
