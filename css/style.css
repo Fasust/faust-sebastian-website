@@ -108,8 +108,7 @@ figure {
 
 @media only screen and (max-width:749px)  {
   #fh5co-header {
-    background-attachment:inherit !important;
-   
+    background-position: center center !important;
   }
 }
 
