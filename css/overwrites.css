@@ -27,6 +27,19 @@
   color: #2b64a9;
 }
 
+.footer-right{
+  float: none !important;
+  margin-top: 20px;
+ 
+}
+
+@media (min-width: 768px) {
+  .footer-right {
+    float: right !important;
+    margin-top: 0px;
+  }
+}
+
 .btn-contact-me {
   margin-top: 50px;
 }
