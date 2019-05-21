@@ -1,7 +1,9 @@
+var isMobile;
+
 (function() {
   "use strict";
 
-  var isMobile = {
+  isMobile = {
     Android: function() {
       return navigator.userAgent.match(/Android/i);
     },
