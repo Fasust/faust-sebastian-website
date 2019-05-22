@@ -1056,44 +1056,35 @@ input[type="text"] {
     height: 200px;
   }
 }
-
-.gototop {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 999;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+.btn-fader{
+  display:none;
 }
-.gototop.active {
-  opacity: 1;
-  visibility: visible;
-}
-.gototop a {
-  width: 50px;
-  height: 50px;
-  display: table;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
+.btn-go-up {
+  position:fixed;
+  right:0;
+  bottom:0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor:pointer;
+  
+  width:50px;
+  height:50px;
+  line-height: 55px;
   text-align: center;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+
+  background-color:rgba(0, 0, 0, 0.8);
+ 
+  -webkit-border-radius:80px;
+  -moz-border-radius:80px;
+  border-radius:80px;
 }
-.gototop a i {
-  height: 50px;
-  display: table-cell;
-  vertical-align: middle;
+.btn-go-up:hover {
+  background-color:#2b64a9;
+ 
 }
-.gototop a:hover,
-.gototop a:active,
-.gototop a:focus {
-  text-decoration: none;
-  outline: none;
+.btn-go-up i{
+  color: white;
+  font-size: 20px;
 }
 
 .btn {
