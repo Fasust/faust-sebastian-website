@@ -343,7 +343,7 @@ figure {
   width: 90%;
   float: left;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .info {
     margin-bottom: 3em;
   }
