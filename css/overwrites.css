@@ -62,6 +62,12 @@
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .last-service {
+    margin-bottom: 90px !important;
+  }
+}
+
 /** FlatIcon Font ============== **/
 
 [class^="flaticon-"]:before,

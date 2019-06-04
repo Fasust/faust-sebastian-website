@@ -251,6 +251,7 @@ figure {
 #fh5co-features .services-padding {
   padding: 7em 0;
 }
+
 #fh5co-features .feature-left {
   margin-bottom: 40px;
 }
@@ -343,7 +344,7 @@ figure {
   width: 90%;
   float: left;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .info {
     margin-bottom: 3em;
   }
@@ -480,7 +481,7 @@ figure {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline .timeline-heading > div h3 {
     float: left;
     margin-bottom: 0;
@@ -548,16 +549,17 @@ figure {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+@media screen and (max-width: 992px) {
+  .timeline > li > .timeline-badge {
+    margin-left: 54px !important;
+  }
+}
 @media screen and (max-width: 768px) {
   .timeline > li > .timeline-badge {
     margin-left: -10px !important;
   }
 }
-@media screen and (max-width: 992px) {
-  .timeline > li > .timeline-badge {
-    margin-left: -10px !important;
-  }
-}
+
 .timeline > li > .timeline-badge i {
   display: table-cell;
   vertical-align: middle;
@@ -567,7 +569,7 @@ figure {
 .timeline > li.timeline-unverted {
   text-align: right;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline > li.timeline-unverted {
     text-align: left;
   }
