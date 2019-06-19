@@ -306,7 +306,7 @@ figure {
 #fh5co-blog,
 #fh5co-pricing,
 #fh5co-contact {
-  padding: 7em 0;
+  padding: 7em 0em;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -319,6 +319,7 @@ figure {
     padding: 3em 0;
   }
 }
+
 
 #fh5co-started {
   border-bottom: none;
