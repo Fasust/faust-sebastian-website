@@ -464,10 +464,8 @@ figure {
     margin-left: -64px;
   }
 }
-@media screen and (max-width: 768px) {
-  .timeline .timeline-heading {
-    margin-bottom: 30px;
-  }
+.timeline .timeline-heading {
+  margin-bottom: 20px;
 }
 .timeline .timeline-heading > div h3 {
   display: inline-block;
@@ -485,7 +483,7 @@ figure {
 @media screen and (max-width: 992px) {
   .timeline .timeline-heading > div h3 {
     float: left;
-    margin-bottom: 0;
+    margin-bottom: 0px;
   }
 }
 .timeline > li {
