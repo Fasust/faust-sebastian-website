@@ -596,12 +596,15 @@ figure {
 }
 
 .company {
-  display: block;
-  margin-bottom: 20px;
+  display: inline-block;
   margin-top: 0px;
   font-size: 16px;
   font-weight: normal;
   color: #9c9c9c;
+}
+
+.loc{
+  display: block !important;
 }
 
 .timeline-body > p,
