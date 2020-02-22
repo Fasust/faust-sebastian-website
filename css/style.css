@@ -354,7 +354,7 @@ figure {
   width: 100%;
   float: left;
   list-style: none;
-  padding: 10px 0;
+  padding: 8px 0;
 }
 .info li:first-child {
   padding-top: 0;
@@ -465,7 +465,7 @@ figure {
   }
 }
 .timeline .timeline-heading {
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 .timeline .timeline-heading > div h3 {
   display: inline-block;
@@ -872,7 +872,7 @@ figure {
 
 @media screen and (max-width: 1200px) {
   .fh5co-blog .blog-text {
-    padding: 12px;
+    padding: 16px;
   }
 }
 
@@ -1014,7 +1014,6 @@ figure {
 }
 .contact-info li {
   list-style: none;
-  margin: 0 0 20px 0;
   position: relative;
   padding-left: 40px;
   color: #000;
