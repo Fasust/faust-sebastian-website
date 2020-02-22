@@ -876,6 +876,20 @@ figure {
   }
 }
 
+.store-link {
+  padding-top: 0px;
+  float: right;
+}
+
+@media screen and (max-width: 360px) {
+  .store-link {
+    padding-top: 8px;
+    float: right;
+  }
+}
+
+
+
 .fh5co-blog .blog-text span {
   display: inline-block;
   margin-bottom: 8px;
