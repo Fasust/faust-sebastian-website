@@ -27,6 +27,10 @@
   color: #2b64a9;
 }
 
+.store-link:hover {
+  color: #2b64a9;
+}
+
 .footer-right{
   float: none !important;
   margin-top: 20px;
