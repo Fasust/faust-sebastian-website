@@ -294,7 +294,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-features {
+#fh5co-datapoints {
 	background: $brand-primary;
 	h2 {
 		color: $brand-white;
@@ -350,9 +350,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-about,
 #fh5co-resume,
 #fh5co-skills,
-#fh5co-started,
+#fh5co-callToAction,
 #fh5co-work,
-#fh5co-blog,
+#fh5co-projects,
 #fh5co-pricing,
 #fh5co-contact{
 	padding: 7em 0;
@@ -361,7 +361,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		padding: 3em 0;
 	}
 }
-#fh5co-started{
+#fh5co-callToAction{
 	border-bottom: none;
 }
 
@@ -807,7 +807,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-started {
+#fh5co-callToAction {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -842,7 +842,7 @@ h1, h2, h3, h4, h5, h6, figure {
 //PRICING
 
 // BLOG
-.fh5co-blog{
+.fh5co-projects{
 	width: 100%;
 	float: left;
 	margin-bottom: 40px;
@@ -888,7 +888,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			font-size: 18px !important;
 			color: rgba($brand-black,.3);
 		}
-		.stuff{
+		.tag-list{
 			margin: 0;
 			padding: 0;
 			border-top: 1px solid rgba($brand-black,.05);
