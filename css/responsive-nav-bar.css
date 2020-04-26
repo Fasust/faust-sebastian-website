@@ -22,8 +22,14 @@
 	font-size: 2.5rem;
 }
 
+.nav div.logo a img{
+	width: 35px;
+    height: 35px;
+    margin-right: 2rem;
+}
+
 .nav div.logo a:hover {
-	color: #00e676;
+	color: #2C65A9;
 }
 
 .nav div.main_list {
@@ -55,13 +61,13 @@
 }
 
 .nav div.main_list ul li a:hover {
-	color: #00e676;
+	color: #2C65A9;
 }
 
 /* Home section */
 
 .navTrigger {
-	display: none;
+    display: none;
 }
 
 .nav {
@@ -84,7 +90,8 @@
 		display: block;
 	}
 	.nav div.logo {
-		margin-left: 15px;
+        margin-left: 10px;
+        padding-left: 0rem;
 	}
 	.nav div.main_list {
 		width: 100%;
@@ -102,7 +109,7 @@
 		right: 0;
 		left: 0;
 		bottom: 0;
-		background-color: #111;
+        background-color: rgba(17, 17, 17, 0.8);
 		/*same background color of navbar*/
 		background-position: center top;
 	}
@@ -130,7 +137,7 @@
 	height: 25px;
 	margin: auto;
 	position: absolute;
-	right: 30px;
+	right: 20px;
 	top: 0;
 	bottom: 0;
 }
@@ -315,7 +322,7 @@
 
 .affix {
 	padding: 0;
-	background-color: #111;
+	background-color: rgba(17, 17, 17, 0.9);
 }
 
 .myH2 {
