@@ -50,6 +50,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- Edited Theme style  -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Navbar -->
+    <link rel="stylesheet" href="css/responsive-nav-bar.css">
 
     <!--Own CSS-->
     <link rel="stylesheet" href="css/overwrites.css">
@@ -62,8 +64,30 @@
 
     <div class="fh5co-loader"></div>
 
-    <!--Header-->
     <div id="page">
+        <!--Navigation-->
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">Your Logo</a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+
+        <!--Header-->
         <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(assets/black_beach.jpg);" data-stellar-background-ratio="0.4" title="Sebastian Faust at black beach in Iceland">
             <div class="overlay"></div>
             <div class="container">
@@ -585,6 +609,20 @@
     <script src="js/calc-data-points.js"></script>
     <script src="js/count-up.js"></script>
     <script src="js/floating-button.js"></script>
+    <script src="js/nav-trigger.js"></script>
+
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
 
 </body>
 </html>
