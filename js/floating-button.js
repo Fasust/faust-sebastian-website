@@ -9,12 +9,15 @@ $(document).ready(function(){
     }); 
     
   
-    $(".btn-go-up").on("click", function(event) {
+    $(".scroll-to").on("click", function(event) {
         event.preventDefault();
+        let destination = $(this).attr("href");
+
+        console.log(destination);
   
         $("html, body").animate(
           {
-            scrollTop: $("html").offset().top
+            scrollTop: $(destination + '').offset().top
           },
           500,
           "easeInOutExpo"

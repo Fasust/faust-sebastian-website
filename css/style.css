@@ -1085,7 +1085,7 @@ input[type="text"] {
 .btn-fader{
   display:none;
 }
-.btn-go-up {
+.btn-arrow-hover {
   position:fixed;
   right:0;
   bottom:0;
@@ -1104,11 +1104,11 @@ input[type="text"] {
   -moz-border-radius:80px;
   border-radius:80px;
 }
-.btn-go-up:hover {
+.btn-arrow-hover:hover {
   background-color:#2b64a9;
  
 }
-.btn-go-up i{
+.btn-arrow-hover i{
   color: white;
   font-size: 20px;
 }

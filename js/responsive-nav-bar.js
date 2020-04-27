@@ -18,5 +18,5 @@ $('.navlinks li a').click(function () {
     console.log("Clicked menu");
     $("#mainListDiv").toggleClass("show_list");
     $("#mainListDiv").fadeIn();
-});
+}); 
 
