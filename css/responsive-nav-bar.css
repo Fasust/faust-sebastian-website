@@ -19,7 +19,7 @@
 .nav div.logo a {
 	text-decoration: none;
 	color: #fff;
-	font-size: 18px;
+	font-size: 21px;
 	font-family: "Kaushan Script", cursive;
 }
 
@@ -27,7 +27,7 @@
 	height: 25px;
 	vertical-align: middle;
 	margin-bottom: 0.25em;	
-	padding-right: 8px;
+	padding-right: 10px;
 }
 
 .nav div.logo a:hover {
@@ -61,10 +61,6 @@
 	line-height: 40px;
     font-size: 18px;
 
-}
-
-.nav div.main_list ul li a:hover {
-	color: #2C65A9;
 }
 
 /* Home section */
@@ -125,6 +121,10 @@
 	}
 	.nav div.media_button {
 		display: block;
+	}
+
+	div.logo a span {
+		display: none;
 	}
 }
 
