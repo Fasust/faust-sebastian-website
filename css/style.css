@@ -1181,7 +1181,7 @@ input[type="text"] {
   color: #5cb85c;
   border: 2px solid #5cb85c;
 }
-.btn-success.btn-outline:hover,
+.btn-success.btn-outline,
 .btn-success.btn-outline:focus,
 .btn-success.btn-outline:active {
   background: #5cb85c;
