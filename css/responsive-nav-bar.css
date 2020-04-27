@@ -64,6 +64,10 @@
 
 }
 
+.nav div.main_list ul li a:hover {
+	color: #2C65A9;
+}
+
 /* Home section */
 
 .navTrigger {
