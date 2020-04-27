@@ -13,7 +13,7 @@
 	float: left;
 	width: auto;
 	height: auto;
-	padding-left: 3rem;
+	padding-left: 2rem;
 }
 
 .nav div.logo a {
@@ -108,7 +108,7 @@
 		right: 0;
 		left: 0;
 		bottom: 0;
-        background-color: rgba(17, 17, 17, 0.8);
+        background-color: rgba(0, 0, 0, 0.7);
 		/*same background color of navbar*/
 		background-position: center top;
 	}
@@ -332,7 +332,7 @@
 
 .affix {
 	padding: 0 !important;
-	background-color: rgba(17, 17, 17, 0.9);
+	background-color: rgba(17, 17, 17, 0.8);
 }
 
 .myH2 {
