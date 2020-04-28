@@ -1,5 +1,5 @@
 let waypoint = new Waypoint({
-  element: document.getElementById("fh5co-datapoints"),
+  element: document.getElementById("datapoints"),
   handler: function() {
     $(".counter").each(function() {
       var $this = $(this),
