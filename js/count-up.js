@@ -11,7 +11,7 @@ let waypoint = new Waypoint({
         },
 
         {
-          duration: 2000,
+          duration: 1300,
           easing: "linear",
           step: function() {
             $this.text(Math.floor(this.countNum));
