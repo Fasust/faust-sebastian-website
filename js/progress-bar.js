@@ -11,5 +11,5 @@ let waypoint2 = new Waypoint({
       );
     });
   },
-  offset: 200,
+  offset: 450,
 });
