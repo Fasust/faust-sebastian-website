@@ -1,6 +1,6 @@
 # faust-sebastian.com
 ### My Personal Website 
-![Header](https://github.com/Fasust/faust-sebastian-website/blob/master/assets/screencap.PNG)
+![Header](https://github.com/Fasust/faust-sebastian-website/blob/master/assets/screencap.webp)
 
 I created this website to further Improve my Front-End Development Skills.
 Definitely not my expertice but I am pretty happy with the final Result.
