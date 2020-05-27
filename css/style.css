@@ -102,7 +102,7 @@ figure {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  height: 750px;
+  height: 700px;
   width: 100%;
 }
 
@@ -125,13 +125,14 @@ figure {
 .fh5co-cover .display-t {
   width: 100%;
   display: table;
-  height: 800px;
+  height: 700px;
 }
 #header .display-tc,
 .fh5co-cover .display-tc {
   display: table-cell;
   vertical-align: middle;
   height: 600px;
+  padding-top: 120px;
 }
 #header .display-tc h1,
 #header .display-tc h2,
