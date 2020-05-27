@@ -1,25 +1,25 @@
 var isMobile;
 
-(function() {
+(function () {
   "use strict";
 
   isMobile = {
-    Android: function() {
+    Android: function () {
       return navigator.userAgent.match(/Android/i);
     },
-    BlackBerry: function() {
+    BlackBerry: function () {
       return navigator.userAgent.match(/BlackBerry/i);
     },
-    iOS: function() {
+    iOS: function () {
       return navigator.userAgent.match(/iPhone|iPad|iPod/i);
     },
-    Opera: function() {
+    Opera: function () {
       return navigator.userAgent.match(/Opera Mini/i);
     },
-    Windows: function() {
+    Windows: function () {
       return navigator.userAgent.match(/IEMobile/i);
     },
-    any: function() {
+    any: function () {
       return (
         isMobile.Android() ||
         isMobile.BlackBerry() ||
@@ -27,27 +27,18 @@ var isMobile;
         isMobile.Opera() ||
         isMobile.Windows()
       );
-    }
-  };
-
-  var fullHeight = function() {
-    if (!isMobile.any()) {
-      $(".js-fullheight").css("height", $(window).height());
-      $(window).resize(function() {
-        $(".js-fullheight").css("height", $(window).height());
-      });
-    }
+    },
   };
 
   // Parallax
-  var parallax = function() {
+  var parallax = function () {
     $(window).stellar();
   };
 
-  var contentWayPoint = function() {
+  var contentWayPoint = function () {
     var i = 0;
     $(".animate-box").waypoint(
-      function(direction) {
+      function (direction) {
         if (
           direction === "down" &&
           !$(this.element).hasClass("animated-fast")
@@ -55,11 +46,11 @@ var isMobile;
           i++;
 
           $(this.element).addClass("item-animate");
-          setTimeout(function() {
-            $("body .animate-box.item-animate").each(function(k) {
+          setTimeout(function () {
+            $("body .animate-box.item-animate").each(function (k) {
               var el = $(this);
               setTimeout(
-                function() {
+                function () {
                   var effect = el.data("animate-effect");
                   if (effect === "fadeIn") {
                     el.addClass("fadeIn animated-fast");
@@ -77,27 +68,20 @@ var isMobile;
                 "easeInOutExpo"
               );
             });
-          }, 50);
+          }, 0);
         }
       },
       { offset: "85%" }
     );
   };
 
-  // Loading page
-  var loaderPage = function() {
-    $(".fh5co-loader").fadeOut("slow");
-  };
-
-  $(function() {
+  $(function () {
     contentWayPoint();
-    loaderPage();
-    fullHeight();
     parallax();
   });
 })();
 
 // Deactivate Stellar Parallax on Mobil
 $.stellar({
-  verticalScrolling: !isMobile.any()
+  verticalScrolling: !isMobile.any(),
 });

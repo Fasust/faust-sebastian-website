@@ -64,6 +64,11 @@
   display: block;
 }
 
+.header-down-arrow {
+  color: #fff;
+  font-size: 50px;
+}
+
 @media (min-width: 768px) {
   .btn-cv {
     float: right;
