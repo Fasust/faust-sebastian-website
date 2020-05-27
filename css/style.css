@@ -102,13 +102,13 @@ figure {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  height: 800px;
+  height: 750px;
   width: 100%;
 }
 
-@media only screen and (max-width:749px)  {
+@media only screen and (max-width: 749px) {
   #header {
-    background-position: center center !important;
+    background-position-x:  center !important;
   }
 }
 
@@ -320,7 +320,6 @@ figure {
     padding: 3em 0;
   }
 }
-
 
 #callToAction {
   border-bottom: none;
@@ -603,7 +602,7 @@ figure {
   color: #9c9c9c;
 }
 
-.loc{
+.loc {
   display: block !important;
 }
 
@@ -889,8 +888,6 @@ figure {
   }
 }
 
-
-
 .fh5co-projects .blog-text span {
   display: inline-block;
   margin-bottom: 8px;
@@ -933,10 +930,9 @@ figure {
 .fh5co-projects .blog-text h3 a {
   color: black;
 }
-.fh5co-projects .blog-text h3 a i{
+.fh5co-projects .blog-text h3 a i {
   padding-left: 8px;
 }
-
 
 #consult {
   display: -webkit-box;
@@ -1083,33 +1079,32 @@ input[type="text"] {
     height: 200px;
   }
 }
-.btn-fader{
-  display:none;
+.btn-fader {
+  display: none;
 }
 .btn-arrow-hover {
-  position:fixed;
-  right:0;
-  bottom:0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
   margin-right: 20px;
   margin-bottom: 20px;
-  cursor:pointer;
-  
-  width:50px;
-  height:50px;
+  cursor: pointer;
+
+  width: 50px;
+  height: 50px;
   line-height: 55px;
   text-align: center;
 
-  background-color:rgba(0, 0, 0, 0.7);
- 
-  -webkit-border-radius:80px;
-  -moz-border-radius:80px;
-  border-radius:80px;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
 }
 .btn-arrow-hover:hover {
-  background-color:#2b64a9;
- 
+  background-color: #2b64a9;
 }
-.btn-arrow-hover i{
+.btn-arrow-hover i {
   color: white;
   font-size: 20px;
 }
