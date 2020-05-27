@@ -80,3 +80,8 @@ let isMobile;
     parallax();
   });
 })();
+
+// Deactivate Stellar Parallax on Mobil	
+$.stellar({	
+  verticalScrolling: !isMobile.any(),	
+});
