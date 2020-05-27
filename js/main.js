@@ -1,4 +1,4 @@
-var isMobile;
+let isMobile;
 
 (function () {
   "use strict";
@@ -31,12 +31,12 @@ var isMobile;
   };
 
   // Parallax
-  var parallax = function () {
+  let parallax = function () {
     $(window).stellar();
   };
 
-  var contentWayPoint = function () {
-    var i = 0;
+  let contentWayPoint = function () {
+    let i = 0;
     $(".animate-box").waypoint(
       function (direction) {
         if (
@@ -48,10 +48,10 @@ var isMobile;
           $(this.element).addClass("item-animate");
           setTimeout(function () {
             $("body .animate-box.item-animate").each(function (k) {
-              var el = $(this);
+              let el = $(this);
               setTimeout(
                 function () {
-                  var effect = el.data("animate-effect");
+                  let effect = el.data("animate-effect");
                   if (effect === "fadeIn") {
                     el.addClass("fadeIn animated-fast");
                   } else if (effect === "fadeInLeft") {
@@ -80,8 +80,3 @@ var isMobile;
     parallax();
   });
 })();
-
-// Deactivate Stellar Parallax on Mobil
-$.stellar({
-  verticalScrolling: !isMobile.any(),
-});

@@ -2,7 +2,7 @@ let waypoint = new Waypoint({
   element: document.getElementById("datapoints"),
   handler: function() {
     $(".counter").each(function() {
-      var $this = $(this),
+      let $this = $(this),
         countTo = $this.attr("data-count");
 
       $({ countNum: $this.text() }).animate(
