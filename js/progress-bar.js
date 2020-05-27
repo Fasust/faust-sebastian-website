@@ -1,5 +1,5 @@
 let waypoint2 = new Waypoint({
-  element: document.getElementById("skills"),
+  element: document.getElementById("skill-bars"),
   handler: function () {
     $(".progress-bar").each(function (index) {
       let value = $(this).attr("data-value");
