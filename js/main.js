@@ -79,9 +79,9 @@ let isMobile;
     contentWayPoint();
     parallax();
   });
-})();
 
-// Deactivate Stellar Parallax on Mobil	
-$.stellar({	
-  verticalScrolling: !isMobile.any(),	
-});
+  // Deactivate Stellar Parallax on Mobil
+  $.stellar({
+    verticalScrolling: !isMobile.any(),
+  });
+})();
