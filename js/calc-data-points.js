@@ -2,14 +2,19 @@ document
   .getElementById("days-since-birth")
   .setAttribute(
     "data-count",
-    getDaysBetween(new Date(), new Date('1997-08-27T12:00:00'))
+    getDaysBetween(new Date(), new Date("1997-08-27T12:00:00"))
   );
 
 document
   .getElementById("coffees")
   .setAttribute(
     "data-count",
-    getDaysBetween(new Date('2015-08-27T12:00:00'), new Date('1997-08-27T12:00:00')) * 2
+    Math.round(
+      getDaysBetween(
+        new Date("2015-08-27T12:00:00"),
+        new Date("1997-08-27T12:00:00")
+      ) * 1.2
+    )
   );
 
 function getDaysBetween(firstDate, secondDate) {
