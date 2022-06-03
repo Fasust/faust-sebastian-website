@@ -17,6 +17,10 @@
   color: rgba(148, 148, 148, 0.8);
 }
 
+.timeline-body ul {
+  list-style: disc;
+}
+
 /** Specific Items ============== **/
 
 .repo-link {
@@ -31,10 +35,9 @@
   color: #2b64a9;
 }
 
-.footer-right{
+.footer-right {
   float: none !important;
   margin-top: 20px;
- 
 }
 
 #about ul {
